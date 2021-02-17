@@ -1,0 +1,9 @@
+[submodule "internal"]
+	path = internal
+	url = git@github.com:marshmallow-docs/internal.git
+[submodule "ecommerce"]
+	path = ecommerce
+	url = git@github.com:marshmallow-docs/ecommerce.git
+[submodule "packages"]
+	path = packages
+	url = git@github.com:marshmallow-docs/packages.git

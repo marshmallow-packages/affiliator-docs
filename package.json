@@ -1,0 +1,9 @@
+{
+    "dependencies": {
+        "vuepress": "^1.5"
+    },
+    "scripts": {
+        "docs:build": "vuepress build && rm -rf ../public/docs && cp -r .vuepress/dist ../public/docs",
+        "docs:dev": "vuepress dev"
+    }
+}
