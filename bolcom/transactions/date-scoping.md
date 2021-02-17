@@ -16,4 +16,4 @@ Nulla exercitation aute ut dolor consequat eu ad eiusmod dolor excepteur aute es
 []
 ```
 
-<EditOnGithub repo_name="affiliate-docs" edit_url="nova/live-update.md"/>
+<EditOnGithub edit_url="bolcom/transactions/date-scoping.md"/>

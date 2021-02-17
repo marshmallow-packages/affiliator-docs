@@ -15,9 +15,9 @@ module.exports = {
 		lastUpdated: false, // string | boolean
 		sidebarDepth: 0,
 
-		repo: 'marshmallow-docs/mrmallow',
+		repo: 'marshmallow-packages',
 
-		docsRepo: 'marshmallow-docs/mrmallow',
+		docsRepo: 'marshmallow-packages',
 		editLinks: false,
 		editLinkText: 'Help us improve this page!',
 

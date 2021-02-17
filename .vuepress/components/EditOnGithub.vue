@@ -11,11 +11,10 @@
 export default {
   	props: [
   		'edit_url',
-  		'repo_name',
   	],
   	methods: {
   		githubEditUrl() {
-  			return 'https://github.com/marshmallow-docs/' + this.repo_name + '/blob/master/' + this.edit_url;
+  			return 'https://github.com/marshmallow-packages/affiliator-docs/blob/main/' + this.edit_url;
   		}
   	}
 }

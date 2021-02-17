@@ -2,4 +2,4 @@
 
 ...
 
-<EditOnGithub repo_name="packages" edit_url="bolcom/README.md"/>
+<EditOnGithub edit_url="bolcom/transactions/README.md"/>
