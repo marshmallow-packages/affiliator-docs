@@ -1,19 +1,13 @@
-# Authentication
+# Organizations
 Sit aliquip ut sunt enim culpa eiusmod irure laboris tempor id in adipisicing nulla ex non ea nostrud dolore laborum dolor dolor cillum tempor cupidatat ut officia.
 
 [[toc]]
 
-## Get an access token
+## Request
 Nulla veniam et laborum culpa dolore labore eu duis dolore consectetur occaecat amet voluptate veniam consequat laboris ex nulla ut.
 ```php
-Http::->asForm()->post('https://affiliate.ippies.nl/oauth/token', [
-    'grant_type' => 'password',
-    'client_id' => '__YOUR_CLIENT_ID__',
-    'client_secret' => '__YOUR_CLIENT_SECRET__',
-    'username' => '__YOUR_USERNAME__',
-    'password' => '__YOUR_PASSWORD__',
-    'scope' => '',
-]);
+Http::withToken($token)
+    ->get('https://affiliate.ippies.nl/api/organizations');
 ```
 
 ## Response
@@ -21,11 +15,16 @@ Nulla exercitation aute ut dolor consequat eu ad eiusmod dolor excepteur aute es
 
 ```json
 {
-    "token_type": "Bearer",
-    "expires_in": 31536000,
-    "access_token": "__YOUR_ACCESS_TOKEN__",
-    "refresh_token": "__YOUR_REFRESH_TOKEN__"
+    "data":[
+        {
+            "id": 1,
+            "name": "Marshmallow",
+            "description": "Solving complex problems using simple solutions. Development agency based in The Netherlands.",
+            "address": "Jac. P. Thijsseweg 1A, 2408 ER, Alphen aan den Rijn",
+            "domain": "marshmallow.dev"
+        }
+    ]
 }
 ```
 
-<EditOnGithub edit_url="bolcom/authentication/authentication.md"/>
+<EditOnGithub edit_url="account/organizations.md"/>

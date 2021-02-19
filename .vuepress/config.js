@@ -26,9 +26,10 @@ module.exports = {
 				text: 'Quick Links',
 				items: [
 					{
-						text: 'Affiliates',
+						text: 'API',
 						items: [
-							{text: 'Bol.com', link: '/bolcom/introduction.html'},
+							{text: 'Get transactions', link: '/transactions/get-transactions.html'},
+                            {text: 'Update credentials', link: '/account/sites.html#update-your-site-credentials'},
 						]
 					},
 					{
@@ -46,7 +47,7 @@ module.exports = {
 		],
 
 		sidebar: {
-			'/bolcom/': require('./../bolcom/bolcom'),
+			'/': require('./../sidebar'),
 		},
 	},
 }

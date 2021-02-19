@@ -12,13 +12,20 @@ module.exports = [
             'authentication',
         ]),
     }, {
+        title: "Account",
+        collapsable: false,
+        children: prefix('account', [
+            'user',
+            'networks',
+            'organizations',
+            'sites',
+        ]),
+    }, {
         title: "Transactions",
         collapsable: false,
         children: prefix('transactions', [
             'get-transactions',
             'get-transaction',
-            'date-scoping',
-            'updated-only',
         ]),
     }
 ]
