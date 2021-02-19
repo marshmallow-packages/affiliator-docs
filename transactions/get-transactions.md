@@ -23,8 +23,8 @@ $path = "..... /network/$network_id/site/$site_id?limit=20&page4";
 | ------------- | ------------- | ----- | ------- | ------ |
 | page | Pagination page | integer | 1 | - |
 | limit | Result limit | integer | 10 | Max 1000 allowed |
-| from | From when do you want to get transactions | string | 3 days ago | 2021-02-19 06:55:22 in timezone UTC |
-| till | Till when do you want to get transactions | string | now | 2021-02-19 06:55:22 in timezone UTC |
+| from | From when do you want to get transactions | string | 3 days ago | YYYY-MM-DD |
+| till | Till when do you want to get transactions | string | now | YYYY-MM-DD |
 | updated_only | Only get transactions that have been updated since the provided date time | boolean | 0 | This will only work if you provide a from date |
 
 ## Response
