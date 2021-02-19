@@ -6,7 +6,7 @@ Sit aliquip ut sunt enim culpa eiusmod irure laboris tempor id in adipisicing nu
 ## Get an access token
 Nulla veniam et laborum culpa dolore labore eu duis dolore consectetur occaecat amet voluptate veniam consequat laboris ex nulla ut.
 ```php
-Http::->asForm()->post('https://affiliate.ippies.nl/oauth/token', [
+$response = Http::asForm()->post('https://affiliate.ippies.nl/oauth/token', [
     'grant_type' => 'password',
     'client_id' => '__YOUR_CLIENT_ID__',
     'client_secret' => '__YOUR_CLIENT_SECRET__',
@@ -14,6 +14,8 @@ Http::->asForm()->post('https://affiliate.ippies.nl/oauth/token', [
     'password' => '__YOUR_PASSWORD__',
     'scope' => '',
 ]);
+
+$tokens = $response->json();
 ```
 
 ## Response
