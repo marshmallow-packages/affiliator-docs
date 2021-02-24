@@ -1,7 +1,10 @@
 # Get transactions
+Use the `Get transactions` endpoint to collect all the transactions of a network for a specific site. You will find the request and response on this page. We will also show you how you can filter the results.
+
 [[toc]]
 
 ## Request
+Below you can find how to make the request for this endpoint. Please note that this is a `GET` request and it requires an `access token`.
 ```php
 $network_id = '__NETWORK_ID__';
 $site_id = '__SITE_ID__';
@@ -25,6 +28,7 @@ $path = "..... /network/$network_id/site/$site_id?limit=20&page4";
 | updated_only | Only get transactions that have been updated since the provided date time | boolean | 0 | This will only work if you provide a from date |
 
 ## Response
+Below you will find a valid response when the request was successfull. This example was formatted to a JSON format.
 ```json
 {
     "data": [

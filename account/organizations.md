@@ -1,17 +1,17 @@
 # Organizations
-Sit aliquip ut sunt enim culpa eiusmod irure laboris tempor id in adipisicing nulla ex non ea nostrud dolore laborum dolor dolor cillum tempor cupidatat ut officia.
+List all the organizations that are connected to your user. You will need the ID of an organization in other request like getting the sites for a organization.
 
 [[toc]]
 
 ## Request
-Nulla veniam et laborum culpa dolore labore eu duis dolore consectetur occaecat amet voluptate veniam consequat laboris ex nulla ut.
+Below you can find how to make the request for this endpoint. Please note that this is a `GET` request and it requires an `access token`.
 ```php
 Http::withToken($token)
     ->get('https://affiliate.ippies.nl/api/organizations');
 ```
 
 ## Response
-Nulla exercitation aute ut dolor consequat eu ad eiusmod dolor excepteur aute esse ad do anim eu elit aliqua adipisicing sit amet sunt duis laborum occaecat enim culpa voluptate in commodo elit proident amet deserunt quis nulla velit aliquip.
+Below you will find a valid response when the request was successfull. This example was formatted to a JSON format.
 
 ```json
 {

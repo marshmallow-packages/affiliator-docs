@@ -1,10 +1,10 @@
 # Get transaction
-Sit aliquip ut sunt enim culpa eiusmod irure laboris tempor id in adipisicing nulla ex non ea nostrud dolore laborum dolor dolor cillum tempor cupidatat ut officia.
+If you need to check the data for one single transaction you can do that by using this enpoint. This endpoint will not return a collection of transactions. If you need to get a full collection of transaction check the `Get transactions` part of this documentation.
 
 [[toc]]
 
 ## Request
-Nulla veniam et laborum culpa dolore labore eu duis dolore consectetur occaecat amet voluptate veniam consequat laboris ex nulla ut.
+Below you can find how to make the request for this endpoint. Please note that this is a `GET` request and it requires an `access token`.
 ```php
 $network_id = '__NETWORK_ID__';
 $site_id = '__SITE_ID__';
@@ -15,7 +15,7 @@ Http::withToken($token)->get(
 ```
 
 ## Response
-Nulla exercitation aute ut dolor consequat eu ad eiusmod dolor excepteur aute esse ad do anim eu elit aliqua adipisicing sit amet sunt duis laborum occaecat enim culpa voluptate in commodo elit proident amet deserunt quis nulla velit aliquip.
+Below you will find a valid response when the request was successfull. This example was formatted to a JSON format.
 
 ```json
 {

@@ -2,14 +2,14 @@
 home: true
 heroImage: /assets/img/mm-short-100x100.png
 tagline: Documentation for affiliate connections
-actionText: Documentation overview →
-actionLink: /overview
+actionText: Start building →
+actionLink: /introduction
 features:
+- title: We collect your data
+  details: We collect the your affiliate transactional data for you. You can now use one single API to get all your data. 🤙
+- title: Always building
+  details: We are always looking for new affiliate partners we can connect to our service. Is you miss something? Just contact us and we will build it for you 🚀
 - title: Bol.com
-  details: Connect to the bol.com affiliate api's. Even if your not in the Netherlands 😃
-- title: More info
-  details: Excepteur adipisicing anim deserunt ex voluptate ullamco voluptate commodo amet deserunt tempor nisi tempor veniam dolore tempor duis minim in eu ut commodo laborum elit anim minim. 🚀
-- title: Even more!
-  details: Voluptate nisi id ut irure commodo in ad elit dolor qui voluptate nostrud sed ut minim labore labore esse sed irure ut. 🤙
+  details: Do you need to collect bol.com transactions from outside of the Netherlands? We've got you covert! 😃
 footer: Made by Marshmallow with ❤️
 ---
